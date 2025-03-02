@@ -1,15 +1,3 @@
-let count = 0;
-const add = () => {
-count++;
-return function () {
-return count * 2;
-};
-};
-const result = add();
-console.log(result());
-console.log(result());
-
-/*
 
   let count = 0;
 
